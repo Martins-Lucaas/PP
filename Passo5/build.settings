@@ -1,0 +1,23 @@
+settings =
+{
+	window =
+	{
+		defaultMode = "normal",
+		defaultViewWidth = 720,
+		defaultViewHeight = 1280,
+		resizable = true,
+		enableCloseButton = true,
+		enableMinimizeButton = true,
+		suspendWhenMinimized = true,
+		titleText = {
+			-- The "default" text will be used if the system is using a language and/or
+			-- country code not defined below. This serves as a fallback mechanism.
+			default = "App Teste Solar2D",
+		},
+	},
+	orientation =
+	{
+		default ="portrait",
+		content = "portrait",
+	},
+}

@@ -1,0 +1,9 @@
+require "physics"
+physics.start()
+physics.setDrawMode("hybrid")
+
+bola = display.newImage("bola.png",300,120)
+physics.addBody(bola,{radius = 500,friction = 0.1,bounce = 0.5})
+
+chao = display.newImage("chao.png",300,700)
+physics.addBody(chao,"static",{outline = graphics.newOutline( 2, "chao.png" ),friction = 0.1})
